@@ -4,7 +4,7 @@ import time
 print("Welcome!")
 # Mail sender account
 
-mail = input("Please enter mail sender account(example:hola39799@gmail.com): ")
+mail = input("Please enter mail sender account(example:john9@gmail.com): ")
 apppassword = input("Please enter app password for mail provided: ")
 
 yag = yagmail.SMTP(user=mail, password=apppassword)
